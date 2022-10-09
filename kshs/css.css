@@ -1,0 +1,26 @@
+div{
+    background-color:#333;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    margin-left:5px;
+    margin-top:10px;
+}
+
+label{
+    font-family:Microsoft JhengHei;
+    color:#ccc;
+    margin-left:10px
+}
+
+a{
+    font-family:Microsoft JhengHei;
+    color: rgb(209, 148, 234);
+    margin-top:10px;
+    margin-left:25px;
+    text-decoration:none;
+}
+
+input[type=checkbox]{
+    margin-left: 0px;
+}
