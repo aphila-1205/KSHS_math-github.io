@@ -6,10 +6,9 @@ var everyYear = [
     [false,false,false,false,false],
     [false,false,false,false,false]
 ]
+output()
 
 function output(){
-
-    
     if(document.getElementById("S1st").checked == true){
         everyYear[0] = ["S1st","S1st","S1st","S1st","S1st","S1st"]
     }
@@ -130,6 +129,6 @@ function year(y){
 
 function rename(ori){
     var oldName = ori
-    var newName = oldName.replace("S1","第一學期").replace("S2","第二學期").replace("st"," 第一次").replace("nd"," 第二次").replace("rd"," 第三次").replace("_1"," 一年級").replace("_2N"," 二年級-自然組").replace("_2S"," 二年級-社會組").replace("_3N"," 三年級-自然組").replace("_3S"," 三年級-社會組")
+    var newName = oldName.replace("S1","▶ 第一學期").replace("S2","▶ 第二學期").replace("st"," 第一次").replace("nd"," 第二次").replace("rd"," 第三次").replace("_1"," 一年級").replace("_2N"," 二年級-自然組").replace("_2S"," 二年級-社會組").replace("_3N"," 三年級-自然組").replace("_3S"," 三年級-社會組")
     return newName
 }
