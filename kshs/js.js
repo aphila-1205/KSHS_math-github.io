@@ -119,7 +119,7 @@ function year(y){
     for(var i=0; i<6; i+=1){
         for(var j=0; j<5; j+=1){
             if(everyYear[i][j] != false){
-                document.getElementById("output" +y).innerHTML += `<a href="file/` + y + `/` + everyYear[i][j] + `.pdf">` + rename(everyYear[i][j]) + `</a>`
+                document.getElementById("output" +y).innerHTML += `<a href="https://aphila-1205.github.io/kshs_math.github.io/kshs/file/` + y + `/` + everyYear[i][j] + `.pdf">` + rename(everyYear[i][j]) + `</a>`
             }
             console.log(j)
         }
